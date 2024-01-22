@@ -12,7 +12,7 @@ const Hero: FC = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero <br />{" "}
           sequi ad fuga, aperiam perspiciatis magni!
         </p>
-        <div className="mt-5 pb-[200px]">
+        <div className="mt-[100px] pb-[200px]">
           <Button>Get Started</Button>
         </div>
       </div>

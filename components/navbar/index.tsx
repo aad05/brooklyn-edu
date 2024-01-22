@@ -34,7 +34,7 @@ const Navbar: FC = () => {
         <div>
           <Image
             width={200}
-            height={200}
+            height={59}
             alt="logo"
             src={
               "https://www.liblogo.com/img-logo/co2061c796-consulting-logo-consulting-logo-20-examples-of-emblems-design-tips-logaster.png"
