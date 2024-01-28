@@ -5,14 +5,14 @@ import { Button } from "../ui/button";
 
 const OurServices: FC = () => {
   return (
-    <div className="w-[80%] m-auto mt-[100px] flex flex-col items-center">
+    <div className="w-[80%] m-auto mt-[100px] flex flex-col items-center mb-[100px]">
       <h3 className="text-2xl font-bold text-[#FF704B]">Our Services</h3>
       <h1 className="text-4xl font-bold mt-4">What We Do To Serve You Best </h1>
       <div className="mt-8 flex gap-4">
         <Card>
           <CardHeader>
-            <div className="w-[50px] h-[50px] bg-[#FFF1EE] rounded-sm flex items-center justify-center">
-              <Moon className="text-[#FF643A] w-[30px] height-[30px]" />
+            <div className="w-[50px] h-[50px] bg-[#9da4b7] rounded-sm flex items-center justify-center">
+              <Moon className="text-[#0F172A] w-[30px] height-[30px]" />
             </div>
           </CardHeader>
           <CardContent>
