@@ -12,7 +12,7 @@ const Membership: FC = () => {
         <CardContent className="text-center">
           <h3 className="text-5xl font-bold mt-[30px]">$O</h3>
           <div className="flex flex-col gap-3 my-[30px]">
-            <p className="text-sm mt-2 font-semibold">Umumiy ma'lumotlar</p>
+            <p className="text-sm mt-2 font-semibold">Umumiy ma{"'"}lumotlar</p>
             <p className="text-sm mt-2 font-semibold">Xarajatlar</p>
             <p className="text-sm mt-2 font-semibold">
               Viza olish imkoniyatlarini baholash
@@ -23,7 +23,9 @@ const Membership: FC = () => {
       </Card>
       <Card className="w-[40%]">
         <CardHeader className="border-b-2 border-b-[#E2E8F0]">
-          <h1 className="text-2xl text-center font-bold">Ta'lim xizmatlari</h1>
+          <h1 className="text-2xl text-center font-bold">
+            Ta{"'"}lim xizmatlari
+          </h1>
         </CardHeader>
         <CardContent className="text-center">
           <h3 className="text-5xl font-bold mt-[30px]">$250-$999</h3>
@@ -32,10 +34,10 @@ const Membership: FC = () => {
               Universitetga topshirish
             </p>
             <p className="text-sm mt-2 font-semibold">
-              (agar tegishli bo'lsa) viza intervyu tayyorgarliklari
+              (agar tegishli bo{"'"}lsa) viza intervyu tayyorgarliklari
             </p>
             <p className="text-sm mt-2 font-semibold">
-              Viza hujjatlarida ko'mak berish
+              Viza hujjatlarida ko{"'"}mak berish
             </p>
           </div>
           <Button>Batafsil</Button>

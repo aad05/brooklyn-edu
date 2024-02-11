@@ -10,7 +10,7 @@ const OurServices: FC = () => {
         Bizning Xizmatlarimiz
       </h3>
       <h1 className="text-4xl font-bold mt-4">
-        Biz ham talabalar, ham sayyohlar uchun xizmat ko'rsatamiz
+        Biz ham talabalar, ham sayyohlar uchun xizmat ko{"'"}rsatamiz
       </h1>
       <div className="mt-8 flex gap-4">
         <Card className="bg-[url('/images/USA-study.jpg')] bg-cover bg-center relative">
@@ -21,13 +21,15 @@ const OurServices: FC = () => {
             </div>
           </CardHeader>
           <CardContent className="relative z-10">
-            <h3 className="text-xl font-bold text-white">AQSHda oliy ta'lim</h3>
+            <h3 className="text-xl font-bold text-white">
+              AQSHda oliy ta{"'"}lim
+            </h3>
             <p className="text-sm mt-2 text-white">
-              Agar siz AQSH da 'gish juda ham gimmat degan filrda bo'lsangiz,
-              xulosa gillishga shoshilmang chunk AQSH Olivy ta'lim muassasalari
-              50% dan 100% gacha chegirmalar taqdim etadi agar siz ularning
-              talablariga javob bera olsangiz. Biz bilan chegirmalar olish
-              yanada son va bosh og'riglarisiz
+              Agar siz AQSH da o{"'"}gish juda ham gimmat degan filrda bo{"'"}
+              lsangiz, xulosa gillishga shoshilmang chunk AQSH Olivy ta{"'"}
+              lim muassasalari 50% dan 100% gacha chegirmalar taqdim etadi agar
+              siz ularning talablariga javob bera olsangiz. Biz bilan
+              chegirmalar olish yanada son va bosh og{"'"}riglarisiz
             </p>
             <Button variant={"link"} className="text-white">
               Batafsil <MoveRight className="ml-[5px]" />
@@ -47,8 +49,9 @@ const OurServices: FC = () => {
             </h3>
             <p className="text-sm mt-2 text-white">
               Ushbu mamlakatlarga borishingiz imkoniyatini biz bilan oshiring.
-              Biz bilan chegirmalar shuningdek tekin ta'lim ham olishingiz
-              mumkin. Viza olishda esa sizga eng to'g'ri maslahatlarni beramiz
+              Biz bilan chegirmalar shuningdek tekin ta{"'"}lim ham olishingiz
+              mumkin. Viza olishda esa sizga eng to{"'"}g{"'"}ri maslahatlarni
+              beramiz
             </p>
             <Button variant={"link"} className="text-white">
               Batafsil <MoveRight className="ml-[5px]" />
@@ -66,7 +69,7 @@ const OurServices: FC = () => {
             <h3 className="text-xl font-bold text-white">Sayohat vizalari</h3>
             <p className="text-sm mt-2 text-white">
               AQSH Kanada, Yevropa, Avstraliya, Yaponiya kabi davlatlariga
-              biznes va turistik vizalari bo'yicha xizmat ko'rsatamiz
+              biznes va turistik vizalari bo{"'"}yicha xizmat ko{"'"}rsatamiz
             </p>
             <Button variant={"link"} className="text-white">
               Batafsil <MoveRight className="ml-[5px]" />

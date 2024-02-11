@@ -20,12 +20,14 @@ const Footer = () => {
         </div>
         <div className="w-[25%]">
           <h3 className="text-[#fff] text-2xl font-bold">Bizning Xizmatlar</h3>
-          <p className="text-[#fff] font-bold mt-4">Chet Elda Oliy Ta'lim</p>
+          <p className="text-[#fff] font-bold mt-4">
+            Chet Elda Oliy Ta{"'"}lim
+          </p>
           <p className="text-[#fff] font-bold mt-4">Sayohat Vizalari</p>
         </div>
         <div className="w-[25%]">
           <h3 className="text-[#fff] text-2xl font-bold">
-            Biz Bilan Bog'lanish uchun
+            Biz Bilan Bog{"'"}lanish uchun
           </h3>
           <div className="text-[#fff] font-bold mt-4 flex gap-2">
             <Phone className="w-[16px]" />

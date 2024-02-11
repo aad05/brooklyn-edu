@@ -17,7 +17,7 @@ const Team = () => {
           <CardContent className="text-center">
             <h3 className="text-2xl font-bold">Abror</h3>
             <p className="text-sm mt-2">
-              Jamoa rahbari & vizalar bo'yicha mutaxassis
+              Jamoa rahbari & vizalar bo{"'"}yicha mutaxassis
             </p>
           </CardContent>
         </Card>
@@ -32,7 +32,7 @@ const Team = () => {
           <CardContent className="text-center">
             <h3 className="text-2xl font-bold">Azizbek</h3>
             <p className="text-sm mt-2">
-              Jamoa rahbari & Oliy Ta'lim bo'vicha mutaxassis
+              Jamoa rahbari & Oliy Ta{"'"}lim bo{"'"}vicha mutaxassis
             </p>
           </CardContent>
         </Card>
@@ -46,7 +46,9 @@ const Team = () => {
           </CardHeader>
           <CardContent className="text-center">
             <h3 className="text-2xl font-bold">Ziyodullakhon</h3>
-            <p className="text-sm mt-2">Shengen vizalari bo'vicha mutaxassis</p>
+            <p className="text-sm mt-2">
+              Shengen vizalari bo{"'"}vicha mutaxassis
+            </p>
           </CardContent>
         </Card>
       </div>

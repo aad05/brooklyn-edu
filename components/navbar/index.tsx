@@ -42,7 +42,7 @@ const Navbar: FC = () => {
         </div>
         <div className="flex gap-4 text-white text-xl">
           <h3>Asosiy</h3>
-          <h3>Ta'lim</h3>
+          <h3>Ta{"'"}lim</h3>
           <h3>Vizalar</h3>
           <h3>Biz Haqimizda</h3>
         </div>
