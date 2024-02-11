@@ -12,7 +12,8 @@ const Hero: FC = () => {
             SABR VA ISHONCH, <br /> SIZNING <br /> MOVOFFAQIYATINGIZ!
           </h1>
           <p className="mt-[40px] text-2xl text-white">
-            BROOKLYN EDU - <br /> BIZ BILAN TA'LIM TEKIN YOKI JUDA HAM ARZON!
+            BROOKLYN EDU - <br /> BIZ BILAN TA{"'"}LIM TEKIN YOKI JUDA HAM
+            ARZON!
           </p>
           <div className="mt-[100px] pb-[200px]">
             <Button className="w-[250px] h-[70px] text-xl">
@@ -28,7 +29,8 @@ const Hero: FC = () => {
             SABR VA ISHONCH, <br /> SIZNING <br /> MOVOFFAQIYATINGIZ!
           </h1>
           <p className="mt-[40px] text-2xl text-white">
-            BROOKLYN EDU - <br /> BIZ BILAN TA'LIM TEKIN YOKI JUDA HAM ARZON!
+            BROOKLYN EDU - <br /> BIZ BILAN TA{"'"}LIM TEKIN YOKI JUDA HAM
+            ARZON!
           </p>
           <div className="mt-[100px] pb-[200px]">
             <Button className="w-[250px] h-[70px] text-xl">
