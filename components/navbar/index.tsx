@@ -5,50 +5,49 @@ import Image from "next/image";
 
 const Navbar: FC = () => {
   return (
-    <div className="w-full">
+    <div className="w-full bg-[#04122D]">
       <div className="bg-[#04122D] w-[100%] py-[10px]">
         <div className="flex w-[80%] m-auto items-center  justify-between">
           <div className="flex gap-4 items-center">
             <div className="flex gap-2 item-center text-white">
               <Phone className="w-[16px]" />
-              <p className="text-sm">+998 (77) 777 77 77</p>
+              <p className="text-sm">+(371) 26526434</p>
             </div>
             <div className="flex gap-2 item-center text-white">
               <Mail className="w-[16px]" />
-              <p className="text-sm">office@gmail.com</p>
+              <p className="text-sm">brooklyn.edu.uz@gmail.com</p>
             </div>
             <div className="flex gap-2 item-center text-white">
               <Clock className="w-[16px]" />
-              <p className="text-sm">Mon-Sat 9 a.m to 6 p.m</p>
+              <p className="text-sm">Du-Sha 08.00 - 20.00</p>
             </div>
           </div>
           <div className="flex gap-2 text-white items-center">
-            <p className="text-sm">Follow</p>
+            <p className="text-sm">Bizni ijtimoiy tarmoqlarda kuzating:</p>
             <Facebook className="w-[16px]" />
             <Instagram className="w-[16px]" />
             <Twitter className="w-[16px]" />
           </div>
         </div>
       </div>
-      <div className="flex justify-between items-center w-[80%] m-auto mt-4">
+      <div className="flex  justify-between items-center w-[80%] m-auto mt-4">
         <div>
           <Image
             width={200}
-            height={59}
+            height={79}
+            className="h-[79px]"
             alt="logo"
-            src={
-              "https://www.liblogo.com/img-logo/co2061c796-consulting-logo-consulting-logo-20-examples-of-emblems-design-tips-logaster.png"
-            }
+            src={"/images/logo.jpg"}
           />
         </div>
-        <div className="flex gap-4">
-          <h3>Home</h3>
-          <h3>About Us</h3>
-          <h3>Services</h3>
-          <h3>Projects</h3>
+        <div className="flex gap-4 text-white text-xl">
+          <h3>Asosiy</h3>
+          <h3>Ta'lim</h3>
+          <h3>Vizalar</h3>
+          <h3>Biz Haqimizda</h3>
         </div>
         <div>
-          <Button className="bg-[#04122D]">Free Consulting</Button>
+          <Button className="bg-[#04122D]">Bepul Konsultatsiya</Button>
         </div>
       </div>
     </div>

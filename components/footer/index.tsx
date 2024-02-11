@@ -1,55 +1,44 @@
-import {
-  Facebook,
-  Instagram,
-  Twitter,
-  Phone,
-  Mail,
-  Clock,
-  Locate,
-} from "lucide-react";
+import { Phone, Mail, Locate } from "lucide-react";
 import { Input } from "../ui/input";
+import Image from "next/image";
 
 const Footer = () => {
   return (
     <div className="bg-[#04122E]">
       <div className="w-[80%] m-auto flex py-[40px] gap-12">
         <div className="w-[25%]">
-          <img
+          <Image
+            width={200}
+            height={79}
+            className="h-[79px]"
             alt="logo"
-            src="https://www.liblogo.com/img-logo/co2061c796-consulting-logo-consulting-logo-20-examples-of-emblems-design-tips-logaster.png"
-            className="w-[200px]"
+            src={"/images/logo.jpg"}
           />
           <p className="text-[#787C89] font-bold mt-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, nam?
+            SABR VA ISHONCH, SIZNING MOVOFFAQIYATINGIZ!
           </p>
         </div>
         <div className="w-[25%]">
-          <h3 className="text-[#fff] text-2xl font-bold">Our Services</h3>
-          <p className="text-[#fff] font-bold mt-4">Service 1</p>
-          <p className="text-[#fff] font-bold mt-4">Service 2</p>
-          <p className="text-[#fff] font-bold mt-4">Service 3</p>
+          <h3 className="text-[#fff] text-2xl font-bold">Bizning Xizmatlar</h3>
+          <p className="text-[#fff] font-bold mt-4">Chet Elda Oliy Ta'lim</p>
+          <p className="text-[#fff] font-bold mt-4">Sayohat Vizalari</p>
         </div>
         <div className="w-[25%]">
-          <h3 className="text-[#fff] text-2xl font-bold">Contact Info</h3>
+          <h3 className="text-[#fff] text-2xl font-bold">
+            Biz Bilan Bog'lanish uchun
+          </h3>
           <div className="text-[#fff] font-bold mt-4 flex gap-2">
             <Phone className="w-[16px]" />
-            <p className="text-sm">+998 (77) 777 77 77</p>
+            <p className="text-sm">+(371) 26526434</p>
           </div>
           <div className="text-[#fff] font-bold mt-4 flex gap-2">
             <Mail className="w-[16px]" />
-            <p className="text-sm">office@gmail.com</p>
+            <p className="text-sm">brooklyn.edu.uz@gmail.com</p>
           </div>
           <div className="text-[#fff] font-bold mt-4 flex gap-2">
             <Locate className="w-[16px]" />
-            <p className="text-sm">Mon-Sat 9 a.m to 6 p.m</p>
+            <p className="text-sm">Du-Sha 08.00 - 20.00</p>
           </div>
-        </div>
-        <div className="w-[25%]">
-          <h3 className="text-[#fff] text-2xl font-bold">News Letter</h3>
-          <p className="text-[#787C89] font-bold mt-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          </p>
-          <Input className="mt-4" placeholder="Your letter." />
         </div>
       </div>
     </div>

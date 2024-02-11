@@ -6,69 +6,70 @@ import { Button } from "../ui/button";
 const OurServices: FC = () => {
   return (
     <div className="w-[80%] m-auto mt-[100px] flex flex-col items-center mb-[100px]">
-      <h3 className="text-2xl font-bold text-[#FF704B]">Our Services</h3>
-      <h1 className="text-4xl font-bold mt-4">What We Do To Serve You Best </h1>
+      <h3 className="text-2xl font-bold text-[#FF704B]">
+        Bizning Xizmatlarimiz
+      </h3>
+      <h1 className="text-4xl font-bold mt-4">
+        Biz ham talabalar, ham sayyohlar uchun xizmat ko'rsatamiz
+      </h1>
       <div className="mt-8 flex gap-4">
-        <Card>
-          <CardHeader>
-            <div className="w-[50px] h-[50px] bg-[#9da4b7] rounded-sm flex items-center justify-center">
-              <Moon className="text-[#0F172A] w-[30px] height-[30px]" />
-            </div>
-          </CardHeader>
-          <CardContent>
-            <h3 className="text-xl font-bold">Business Solutions</h3>
-            <p className="text-sm mt-2">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut ad
-              illo, aspernatur aut rerum corporis odit perspiciatis commodi quam
-              minus, exercitationem neque quod. Sunt sequi error expedita
-              nostrum consequatur, deserunt quibusdam alias officia quia labore
-              ducimus, optio ratione, accusantium porro molestias minus libero
-              aliquam mollitia veritatis unde.
-            </p>
-            <Button variant={"link"}>
-              Learn more <MoveRight className="ml-[5px]" />
-            </Button>
-          </CardContent>
-        </Card>
-        <Card>
-          <CardHeader>
+        <Card className="bg-[url('/images/USA-study.jpg')] bg-cover bg-center relative">
+          <div className="absolute top-0 w-full h-full bg-[#04122D] bg-opacity-50"></div>
+          <CardHeader className="relative z-10">
             <div className="w-[50px] h-[50px] bg-[#FFF1EE] rounded-sm flex items-center justify-center">
               <Moon className="text-[#FF643A] w-[30px] height-[30px]" />
             </div>
           </CardHeader>
-          <CardContent>
-            <h3 className="text-xl font-bold">Partnership Solutions</h3>
-            <p className="text-sm mt-2">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut ad
-              illo, aspernatur aut rerum corporis odit perspiciatis commodi quam
-              minus, exercitationem neque quod. Sunt sequi error expedita
-              nostrum consequatur, deserunt quibusdam alias officia quia labore
-              ducimus, optio ratione, accusantium porro molestias minus libero
-              aliquam mollitia veritatis unde.
+          <CardContent className="relative z-10">
+            <h3 className="text-xl font-bold text-white">AQSHda oliy ta'lim</h3>
+            <p className="text-sm mt-2 text-white">
+              Agar siz AQSH da 'gish juda ham gimmat degan filrda bo'lsangiz,
+              xulosa gillishga shoshilmang chunk AQSH Olivy ta'lim muassasalari
+              50% dan 100% gacha chegirmalar taqdim etadi agar siz ularning
+              talablariga javob bera olsangiz. Biz bilan chegirmalar olish
+              yanada son va bosh og'riglarisiz
             </p>
-            <Button variant={"link"}>
-              Learn more <MoveRight className="ml-[5px]" />
+            <Button variant={"link"} className="text-white">
+              Batafsil <MoveRight className="ml-[5px]" />
             </Button>
           </CardContent>
         </Card>
-        <Card>
-          <CardHeader>
+        <Card className="bg-[url('/images/travel.jpg')] bg-cover bg-center relative">
+          <div className="absolute top-0 w-full h-full bg-[#04122D] bg-opacity-50"></div>
+          <CardHeader className="relative z-10">
             <div className="w-[50px] h-[50px] bg-[#FFF1EE] rounded-sm flex items-center justify-center">
               <Moon className="text-[#FF643A] w-[30px] height-[30px]" />
             </div>
           </CardHeader>
-          <CardContent>
-            <h3 className="text-xl font-bold">Quality Control</h3>
-            <p className="text-sm mt-2">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut ad
-              illo, aspernatur aut rerum corporis odit perspiciatis commodi quam
-              minus, exercitationem neque quod. Sunt sequi error expedita
-              nostrum consequatur, deserunt quibusdam alias officia quia labore
-              ducimus, optio ratione, accusantium porro molestias minus libero
-              aliquam mollitia veritatis unde.
+          <CardContent className="relative z-10">
+            <h3 className="text-xl font-bold text-white">
+              Kanada, Avstraliya, Yaponiya, Yevropa Ittifogi
+            </h3>
+            <p className="text-sm mt-2 text-white">
+              Ushbu mamlakatlarga borishingiz imkoniyatini biz bilan oshiring.
+              Biz bilan chegirmalar shuningdek tekin ta'lim ham olishingiz
+              mumkin. Viza olishda esa sizga eng to'g'ri maslahatlarni beramiz
             </p>
-            <Button variant={"link"}>
-              Learn more <MoveRight className="ml-[5px]" />
+            <Button variant={"link"} className="text-white">
+              Batafsil <MoveRight className="ml-[5px]" />
+            </Button>
+          </CardContent>
+        </Card>
+        <Card className="bg-[url('/images/travel.jpg')] bg-cover bg-center relative">
+          <div className="absolute top-0 w-full h-full bg-[#04122D] bg-opacity-50"></div>
+          <CardHeader className="relative z-10">
+            <div className="w-[50px] h-[50px] bg-[#FFF1EE] rounded-sm flex items-center justify-center">
+              <Moon className="text-[#FF643A] w-[30px] height-[30px]" />
+            </div>
+          </CardHeader>
+          <CardContent className="relative z-10">
+            <h3 className="text-xl font-bold text-white">Sayohat vizalari</h3>
+            <p className="text-sm mt-2 text-white">
+              AQSH Kanada, Yevropa, Avstraliya, Yaponiya kabi davlatlariga
+              biznes va turistik vizalari bo'yicha xizmat ko'rsatamiz
+            </p>
+            <Button variant={"link"} className="text-white">
+              Batafsil <MoveRight className="ml-[5px]" />
             </Button>
           </CardContent>
         </Card>
